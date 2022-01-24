@@ -173,7 +173,7 @@ export const experience = [
 	{
 		role: "Software Developer",
 		company: "Only Control S.A.",
-		companylogo: "/img/icons/common/ocLogo.jfif",
+		companylogo: "/img/icons/common/ocLogo.png",
 		date: "Jul 2017 – Dec 2020",
 		desc: "Development and implementation of technological solutions for biometric and vehicle access control systems",
 	},
