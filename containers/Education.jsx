@@ -1,9 +1,9 @@
 import React from "react";
-import EducationCard from "../components/EducationCard";
+import EdutionCard from "../components/EdutionCard";
 import { educationInfo } from "../portfolio";
 import { Container, Row, Col } from "reactstrap";
 
-const Education = () => {
+const Edution = () => {
 	return (
 		<section className="section pb-0 bg-gradient-info my-5">
 			<Container>
@@ -25,7 +25,7 @@ const Education = () => {
 								lg="6"
 								key={info.schoolName}
 							>
-								<EducationCard education={info} />
+								<EdutionCard education={info} />
 							</Col>
 						);
 					})}
@@ -50,4 +50,4 @@ const Education = () => {
 	);
 };
 
-export default Education;
+export default Edution;

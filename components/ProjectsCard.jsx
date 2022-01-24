@@ -18,7 +18,7 @@ const ProjectsCard = ({ data }) => {
 									<Button
 										className="btn-icon"
 										color="github"
-										href={data.github}
+										href={data.link}
 										target="_blank"
 										rel="noopener"
 										aria-label="Github"

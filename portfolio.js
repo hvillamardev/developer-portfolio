@@ -1,40 +1,40 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Hilario Villamar Beltran",
+	title: "Hi all, I'm Hilario",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"I am a Full Stack Engineer with 6+ years of experience in the design, development, integration and implementation of Technology Solutions and Project Management IT with use of agile methodologys.",
+	resumeLink: "https://www.linkedin.com/in/hvillamar/",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "hvillamardev",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	//facebook: "https://www.facebook.com/1hanzla100",
+	//instagram: "https://www.instagram.com/1hanzla100",
+	//twitter: "https://twitter.com/1hanzla100",
+	github: "https://github.com/hvillamardev",
+	linkedin: "https://www.linkedin.com/in/hvillamar/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"FULL STACK ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Full Stack Developer expert in web design, programming languages, databases, servers, APIs and Version Control Systems."
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Devops Engineer with experience in coding and reengineering of processes for agile systems administration and collaboration with operations and development work teams."
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Software architect with experience in high level design decision making and technical standards including software coding standards, tools and platforms."
 		),
 	],
 
@@ -48,16 +48,12 @@ export const skillsSection = {
 			fontAwesomeClassname: "vscode-icons:file-type-css",
 		},
 		{
-			skillName: "sass",
-			fontAwesomeClassname: "logos:sass",
-		},
-		{
 			skillName: "JavaScript",
 			fontAwesomeClassname: "logos:javascript",
 		},
 		{
-			skillName: "TypeScript",
-			fontAwesomeClassname: "logos:typescript-icon",
+			skillName: "Angular",
+			fontAwesomeClassname: "logos:angular-icon",
 		},
 		{
 			skillName: "reactjs",
@@ -68,16 +64,20 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
 		{
+			skillName: "Java",
+			fontAwesomeClassname: "logos:java",
+		},
+		{
+			skillName: "c-sharp",
+			fontAwesomeClassname: "logos:c-sharp",
+		},
+		{
+			skillName: "python",
+			fontAwesomeClassname: "logos:python",
+		},
+		{
 			skillName: "flutter",
 			fontAwesomeClassname: "logos:flutter",
-		},
-		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
-		},
-		{
-			skillName: "npm",
-			fontAwesomeClassname: "vscode-icons:file-type-npm",
 		},
 		{
 			skillName: "sql-database",
@@ -92,96 +92,97 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:aws",
 		},
 		{
-			skillName: "firebase",
-			fontAwesomeClassname: "logos:firebase",
+			skillName: "azure",
+			fontAwesomeClassname: "logos:azure-icon",
 		},
 		{
-			skillName: "python",
-			fontAwesomeClassname: "logos:python",
+			skillName: "google-cloud",
+			fontAwesomeClassname: "logos:google-cloud",
 		},
 		{
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
 		{
+			skillName: "jenkins",
+			fontAwesomeClassname: "vscode-icons:file-type-jenkins",
+		},
+		{
 			skillName: "docker",
 			fontAwesomeClassname: "logos:docker-icon",
 		},
+		{
+			skillName: "kubernetes",
+			fontAwesomeClassname: "logos:kubernetes",
+		}
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Frontend", //Insert stack or technology you have experience in
+		progressPercentage: "70", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "100",
 	},
 	{
-		Stack: "Programming",
-		progressPercentage: "60",
+		Stack: "Devops",
+		progressPercentage: "90",
+	},
+	{
+		Stack: "Software Architecture",
+		progressPercentage: "80",
+	},
+	{
+		Stack: "Scrum",
+		progressPercentage: "100",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Universidad Católica de Santiago de Guayaquil",
+		subHeader: "Computational Systems Engineering",
+		duration: "2012 - 2017",
+		desc: "Information technology",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Universidad Internacional de La Rioja",
+		subHeader: "Master's Degree in Software Engineering and Computer Systems",
+		duration: "2021 - 2023",
+		desc: "Information technology",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
-	},
+	}
 ];
 
 export const experience = [
 	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: "/img/icons/common/google.svg",
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Technical Lead",
+		company: "Telconet",
+		companylogo: "/img/icons/common/telcoLogo.png",
+		date: "Dec 2020 – Present",
+		desc: "Senior Software Engineer in development and automation of business solutions with IoT and AI technology",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
 	},
 	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: "/img/icons/common/github.svg",
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Software Developer",
+		company: "Only Control S.A.",
+		companylogo: "/img/icons/common/ocLogo.jfif",
+		date: "Jul 2017 – Dec 2020",
+		desc: "Development and implementation of technological solutions for biometric and vehicle access control systems",
 	},
 	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "System Analyst",
+		company: "BSPI",
+		companylogo: "/img/icons/common/bspiLogo.png",
+		date: "Oct 2016 – Jun 2017",
+		desc: "Development and support of medical systems applications and maintenance of computer equipment",
 	},
 ];
 

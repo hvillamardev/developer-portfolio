@@ -36,7 +36,7 @@ const Greetings = () => {
 									<p className="lead text-white">
 										{greetings.description}
 									</p>
-									<SocialLinks />
+								
 									<div className="btn-wrapper my-4">
 										<Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
