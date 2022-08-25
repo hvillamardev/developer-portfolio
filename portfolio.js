@@ -168,14 +168,14 @@ export const experience = [
 		company: "Ikusoft",
 		companylogo: "/img/icons/common/ikusoft.jpg",
 		date: "Jan 2022 – Present",
-		desc: "Independent professional in development of cloud solutions, websites and chatbots: Python, JS, GCP",
+		desc: "Independent professional in development of cloud solutions, websites and chatbots: Python, JS, GCP.",
 	},
 	{
 		role: "Technical Leader",
 		company: "Telconet",
 		companylogo: "/img/icons/common/telcoLogo.png",
 		date: "Dec 2020 – Feb 2022",
-		desc: "Senior Software Engineer in development and automation of Web, IoT and AI technology solutions: Python, JS, Linux.z",
+		desc: "Senior Software Engineer in development and automation of Web, IoT and AI technology solutions: Python, JS, Linux.",
 		descBullets: [
 		],
 	},
