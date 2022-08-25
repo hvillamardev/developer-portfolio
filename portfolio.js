@@ -3,8 +3,7 @@ import emoji from "react-easy-emoji";
 export const greetings = {
 	name: "Hilario Villamar Beltran",
 	title: "Hi all, I'm Hilario",
-	description:
-		"I am a Full Stack Engineer with 6+ years of experience in the design, development, integration and implementation of Technology Solutions and Project Management IT with use of agile methodologys.",
+	description:"I am a Full-Stack Software Engineer with 7+ years of experience in the design, development, integration and implementation of Technology Solutions and Project Management IT with use of agile methodologys.",
 	resumeLink: "https://www.linkedin.com/in/hvillamar/",
 };
 
@@ -17,7 +16,7 @@ export const contact = {};
 export const socialLinks = {
 	//facebook: "https://www.facebook.com/1hanzla100",
 	//instagram: "https://www.instagram.com/1hanzla100",
-	//twitter: "https://twitter.com/1hanzla100",
+	twitter: "https://twitter.com/hvillamardev",
 	github: "https://github.com/hvillamardev",
 	linkedin: "https://www.linkedin.com/in/hvillamar/",
 };
@@ -31,7 +30,7 @@ export const skillsSection = {
 			"⚡ Full Stack Developer expert in web design, programming languages, databases, servers, APIs and Version Control Systems."
 		),
 		emoji(
-			"⚡ Devops Engineer with experience in coding and reengineering of processes for agile systems administration and collaboration with operations and development work teams."
+			"⚡ Tech Lead with experience in leading software development teams and responsible for the quality of technical products."
 		),
 		emoji(
 			"⚡ Software architect with experience in high level design decision making and technical standards including software coding standards, tools and platforms."
@@ -50,10 +49,6 @@ export const skillsSection = {
 		{
 			skillName: "JavaScript",
 			fontAwesomeClassname: "logos:javascript",
-		},
-		{
-			skillName: "Angular",
-			fontAwesomeClassname: "logos:angular-icon",
 		},
 		{
 			skillName: "reactjs",
@@ -76,16 +71,16 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:python",
 		},
 		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
-		},
-		{
 			skillName: "sql-database",
 			fontAwesomeClassname: "vscode-icons:file-type-sql",
 		},
 		{
 			skillName: "mongoDB",
 			fontAwesomeClassname: "vscode-icons:file-type-mongo",
+		},
+		{
+			skillName: "google-cloud",
+			fontAwesomeClassname: "logos:google-cloud",
 		},
 		{
 			skillName: "aws",
@@ -96,12 +91,12 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:azure-icon",
 		},
 		{
-			skillName: "google-cloud",
-			fontAwesomeClassname: "logos:google-cloud",
-		},
-		{
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
+		},
+		{
+			skillName: "gitlab",
+			fontAwesomeClassname: "logos:gitlab",
 		},
 		{
 			skillName: "jenkins",
@@ -120,8 +115,12 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
+		Stack: "Software Architecture",
+		progressPercentage: "90",
+	},
+	{
 		Stack: "Frontend", //Insert stack or technology you have experience in
-		progressPercentage: "70", //Insert relative proficiency in percentage
+		progressPercentage: "80", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
@@ -132,10 +131,6 @@ export const SkillBars = [
 		progressPercentage: "90",
 	},
 	{
-		Stack: "Software Architecture",
-		progressPercentage: "80",
-	},
-	{
 		Stack: "Scrum",
 		progressPercentage: "100",
 	},
@@ -143,16 +138,16 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Universidad Católica de Santiago de Guayaquil",
-		subHeader: "Computational Systems Engineering",
+		schoolName: "Universidad Católica de Santiago de Guayaquil (UCSG)",
+		subHeader: "B.S. Computational Systems Engineering",
 		duration: "2012 - 2017",
 		desc: "Information technology",
 		descBullets: [
 		],
 	},
 	{
-		schoolName: "Universidad Internacional de La Rioja",
-		subHeader: "Master's Degree in Software Engineering and Computer Systems",
+		schoolName: "Universidad Internacional de La Rioja (UNIR)",
+		subHeader: "M.S. Software Engineering and Computer Systems",
 		duration: "2021 - 2023",
 		desc: "Information technology",
 		descBullets: [
@@ -162,27 +157,27 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Technical Lead",
+		role: "Technical Leader",
+		company: "Tiendamia",
+		companylogo: "/img/icons/common/tiendamia.png",
+		date: "Jul 2022 – Present",
+		desc: "Technical leader of the ecommerce tribe software development team: Magento2, PHP, JS, AWS.",
+	},
+	{
+		role: "Head of Software Engineering",
+		company: "Ikusoft",
+		companylogo: "/img/icons/common/ikusoft.jpg",
+		date: "Jan 2022 – Present",
+		desc: "Independent professional in development of cloud solutions, websites and chatbots: Python, JS, GCP",
+	},
+	{
+		role: "Technical Leader",
 		company: "Telconet",
 		companylogo: "/img/icons/common/telcoLogo.png",
-		date: "Dec 2020 – Present",
-		desc: "Senior Software Engineer in development and automation of business solutions with IoT and AI technology",
+		date: "Dec 2020 – Feb 2022",
+		desc: "Senior Software Engineer in development and automation of Web, IoT and AI technology solutions: Python, JS, Linux.z",
 		descBullets: [
 		],
-	},
-	{
-		role: "Software Developer",
-		company: "Only Control S.A.",
-		companylogo: "/img/icons/common/ocLogo.png",
-		date: "Jul 2017 – Dec 2020",
-		desc: "Development and implementation of technological solutions for biometric and vehicle access control systems",
-	},
-	{
-		role: "System Analyst",
-		company: "BSPI",
-		companylogo: "/img/icons/common/bspiLogo.png",
-		date: "Oct 2016 – Jun 2017",
-		desc: "Development and support of medical systems applications and maintenance of computer equipment",
 	},
 ];
 
